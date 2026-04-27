@@ -1,1 +1,53 @@
 # Sturdy-Octo-Disco-Adding-Sunglasses-for-a-Cool-New-Look
+
+# Sturdy Octo Disco - Sunglass Overlay Project
+
+Welcome to **Sturdy Octo Disco**, a fun and creative computer vision project that transforms ordinary photos into stylish ones by adding sunglasses using image processing techniques!
+
+This project demonstrates how OpenCV and NumPy can be used to perform image manipulation, masking, and blending to achieve realistic overlays.
+
+---
+
+## Features
+
+- Applies image processing techniques (masking & blending)
+- Adds sunglasses overlay on face images
+- Accurate positioning using ROI (Region of Interest)
+- Works well with passport-style / front-facing images
+- Easy to customize with different sunglass images
+
+---
+
+## Technologies Used
+
+- **Python**
+- **OpenCV** – for image processing
+- **NumPy** – for numerical operations
+- **Matplotlib** – for displaying results
+
+---
+
+## How It Works
+
+1. Load the face image and sunglass PNG (with alpha channel)
+2. Extract the alpha mask from the sunglass image
+3. Resize the sunglass to match eye region
+4. Select ROI (eye area) from face image
+5. Apply masking and blending:
+   - Background = Face × (1 - Mask)
+   - Foreground = Glass × Mask
+6. Combine both to get final realistic output 
+
+---
+
+## How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/sturdy-octo-disco.git
+
+# Navigate to project folder
+cd sturdy-octo-disco
+
+# Run the script / notebook
+python main.py
