@@ -40,14 +40,10 @@ This project demonstrates how OpenCV and NumPy can be used to perform image mani
 
 ---
 
-## How to Run
+## output :
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/sturdy-octo-disco.git
+# original image
+<img width="695" height="426" alt="image" src="https://github.com/user-attachments/assets/391bcc83-b87d-4156-ba04-eef3215833c6" />
 
-# Navigate to project folder
-cd sturdy-octo-disco
+# modified image
 
-# Run the script / notebook
-python main.py
