@@ -46,4 +46,5 @@ This project demonstrates how OpenCV and NumPy can be used to perform image mani
 <img width="695" height="426" alt="image" src="https://github.com/user-attachments/assets/391bcc83-b87d-4156-ba04-eef3215833c6" />
 
 # modified image
+<img width="813" height="314" alt="image" src="https://github.com/user-attachments/assets/035fbf44-4c45-4ed9-b953-5fef0ea220de" />
 
